@@ -16,10 +16,15 @@ section{
 #info{
     padding: 20px;
     font-size: 23px;
+    text-align: center;
+    display: flex;
 }
 #info span{
     color: red ;
     text-transform: capitalize;
+}
+#info p:first-child{
+    padding-right: 30px;
 }
 table, td{
     border: 2px solid black;
@@ -33,4 +38,13 @@ td{
 }
 td.disabled{
     pointer-events: none;
+}
+#restart button{
+    padding: 8px 10px;
+    background-color: red;
+    border: none;
+    margin: 15px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
