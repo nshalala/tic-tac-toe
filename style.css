@@ -18,8 +18,8 @@ section{
     font-size: 23px;
 }
 #info span{
-    color: green ;
-    text-transform: uppercase;
+    color: red ;
+    text-transform: capitalize;
 }
 table, td{
     border: 2px solid black;
